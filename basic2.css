@@ -1,0 +1,18 @@
+body {
+    background-color: mintcream;
+}
+H1 {
+    color: midnightblue;
+}
+img {
+    float:left;
+}
+p {
+    color: midnightblue;
+    font-size: 200%;
+    clear: left;
+    border: 5px solid rebeccapurple;
+    display: block;
+    height: 100px;
+    width: 500px;
+}

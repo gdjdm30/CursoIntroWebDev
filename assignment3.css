@@ -1,0 +1,56 @@
+body {
+    background-color: lightskyblue;
+}
+H1 {
+    color: midnightblue;
+    text-align: center;
+}
+.textClass {
+    color: midnightblue;
+    font-size: 150%;
+}
+#link {
+    color: black;
+    font-size: 100%;
+    font-style: oblique;
+}
+table {
+    border: 1px solid midnightblue;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    border: 1px solid midnightblue;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: midnightblue;
+    color: lightskyblue;
+}
+tr:nth-child(odd) {
+    background-color: lightskyblue;
+}
+#centerdiv {
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    color: midnightblue;
+    display: inline-block;
+}
+div.polaroid {
+  width: 24.6%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin: auto;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 10px;
+}

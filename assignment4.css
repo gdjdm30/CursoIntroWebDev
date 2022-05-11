@@ -1,0 +1,51 @@
+body {
+    background-color: cornflowerblue;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+h1 {
+    margin-left: 20px;
+}
+h2 {
+    margin-left: 20px;
+    font-size: large;
+}
+#inside {
+    width: 600px;
+    background-color:ghostwhite;
+}
+table {
+    width: 500px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+td {
+    vertical-align: top;
+    padding: 5px;
+    word-wrap: break-word;
+}
+#fullpage {
+    margin: 50px;
+}
+.label_col {
+    text-align: right;
+}
+.input_col {
+    text-align: left;
+}
+.feedback_col {
+    text-align: center;
+    vertical-align: middle;
+    color: midnightblue;
+    font-size: small;
+}
+.Button {
+    margin: auto;
+    text-align: center;
+    width: 50px;
+}
+.buttonBG {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}

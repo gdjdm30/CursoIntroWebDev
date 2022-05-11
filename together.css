@@ -1,0 +1,44 @@
+body {
+    background-color: mintcream;
+}
+H1 {
+    color: midnightblue;
+    margin-left: 20px;
+}
+.testClass {
+    color: rebeccapurple;
+    font-size: 300%;
+}
+.regular{
+    color:blue;
+    font-size: 100%;
+}
+#output {
+    color: green;
+    font-size: 200%;
+}
+#google {
+    float: left;
+    height: 40px;
+}
+#text {
+    color: brown;
+    font-size: 200%;
+    font-style: italic;
+    clear: left;
+}
+table {
+    border: 1px solid mediumblue;
+    width: 90%;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: cadetblue;
+}
+tr:nth-child(odd) {
+    background-color: chartreuse;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using JS Prompts</title>
+    </head>
+    
+    <script>
+        function myPrompt() {
+            var person = prompt("Please enter your Name", "Desconocido");
+            if (person != "") {
+                document.getElementById("promptT").innerHTML =
+                "Hello " + person + ", its good to be learning JavaScript.";
+            }else{
+                document.getElementById("promptT").innerHTML =
+                "Please, type your name.";
+            }
+        }
+    </script>
+
+    <body>
+    
+    <p>JS Prompt Box.</p>
+    <button onclick="myPrompt()">Click Here</button>
+    <p id="promptT"></p>
+
+    </body>
+
+</html>

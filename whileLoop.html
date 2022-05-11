@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validation</title>
+    </head>
+    <script type="text/javascript">
+        function verticalFullName() {
+            var fullname = document.getElementById("fullname").value;
+            if (fullname == "") {
+                document.getElementById("output").innerHTML = "Please input a Name.";
+            }
+            else {
+                var i = 0;
+                while (i < fullname.length) {
+                    document.getElementById("output").innerHTML += fullname[i] + "<br>"
+                    i++; 
+                }
+            }
+        }
+    </script>
+    <body>
+        Full Name:<input type="text" id="fullname"/>
+        <button onclick="verticalFullName();">Click Here</button>
+        <p id="output"></p>
+        
+    </body>
+</html>

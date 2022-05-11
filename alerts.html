@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using JavaScripts Alerts</title>
+
+        <script>
+            function mathOperation() {
+                var inputNumb = document.getElementById("number").value;
+
+                alert("Your number x 5 is " + inputNumb * 5);
+            }
+        </script>
+    </head>
+
+    <body>
+        <p> JavasScript Alert Test.</p>
+        <button onclick="alert('You have clicked the alert button');">Alert Test</button>
+        <input type="number" id="number"/>
+        <button onclick="mathOperation();">Multiply x 5</button>
+        <p id="Multi"></p>
+    </body>
+</html>

@@ -1,0 +1,191 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body, * {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(245, 135, 45);
+    color: black;
+}
+
+* {
+    border: none;
+    outline: none;
+}
+
+.border10 {
+    border-radius: 10px;
+  }
+
+.intro {
+    width: 35%;
+    height: 90vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 120px;
+}
+
+.intro h2 {
+    background: url(https://cdn.pixabay.com/photo/2019/08/13/08/15/adult-4402808_960_720.jpg) no-repeat;
+    background-position: center;
+    border-radius: 7px;
+    font-size: 300%;
+    width: 100%;
+    padding: 10px 0 20px 70px;
+    font-weight: bold;
+    color: black;
+}
+
+.intro p {
+    width: 90%;
+    padding: 0 0 0 20px;
+}
+
+.form {
+    width: 55%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 30px 0;
+
+  }
+
+.inputDiv {
+    width: 32rem;
+    height: fit-content;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    box-shadow: 0 5px rgb(36, 35, 35);
+}
+
+.inputF {
+    width: 85%;
+    margin: 1px 0;
+    position: relative;
+    transition: 0.3s ease;
+    background-color: whitesmoke;
+}
+
+.inputF .input {
+    width: 85%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 30px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+.inputB {
+    background-color: whitesmoke;
+}
+
+.label {
+    background-color: whitesmoke;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.inputO {
+    width: 85%;
+    margin: 5px 0;
+    position: relative;
+    transition: 0.3s ease;
+    background-color: whitesmoke;
+}
+
+.inputO .input {
+    width: 85%;
+    height: 85px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 30px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+.inputF .input::placeholder {
+    color: var(--grayishBlue);
+}
+
+.inputO .input::placeholder {
+    color: var(--grayishBlue);
+}
+
+.inputF .input:focus {
+    color: var(--grayishBlue);
+}
+
+.inputO .input:focus {
+    color: var(--grayishBlue);
+}
+
+.inputBtn {
+    border-color: rgb(36, 35, 35);
+    background-color: rgb(245, 135, 45);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.indication {
+    font-size: x-small;
+    position: relative;
+    right: 3vw;
+    background-color: whitesmoke;
+}
+
+.button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 4px rgb(36, 35, 35)
+  }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    text-decoration: none;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    color: rgb(245, 135, 45);
+    font-size: 8px;
+}
+
+input[type="date"]:valid:before {
+    content: "Date of Birth";
+    padding-right: 5vh;
+ }
+
+ .inputF .errorInput {
+    text-align: right;
+    vertical-align: middle;
+    font-size: x-small;
+    background-color: whitesmoke;
+}
+
+span {
+    background-color: whitesmoke;
+}

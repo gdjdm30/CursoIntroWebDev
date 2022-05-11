@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Testing</title>
+        <link rel="stylesheet" href="basic.css" type="text/css">
+    </head>
+    <script>
+        function doMath(){
+            var x = 2;
+            var y = 10;
+            var z = 5;
+            var answer = x * y / z;
+            document.getElementById("output").innerHTML = "Result " + answer;
+        }
+    </script>
+    <style type="text/css">
+        p.regular {color:midnightblue;font-size: 100%;}
+        p.medium {color:midnightblue;font-size: 150%;}
+    </style>
+    <body>
+        <h1></h1>
+        <p>JavaScript Testing</p>
+        <button onclick="doMath();">Do the Math</button>
+
+        <p id="output" style="color:indigo;font-size:200%;"></p>
+
+        <p class="regular"> This is a CSS test of regular.</p>
+        <p class="testClass"> This is a CSS test of a .css file.</p>
+    </body>
+</html>

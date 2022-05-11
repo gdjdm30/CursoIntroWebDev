@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS file -->
+        <link rel="stylesheet" href="finalProject.css" type="text/css">
+        <!-- Calling a external font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <title>Final Project</title>
+    </head>
+ 
+    <body>
+        <!-- Including a section for the required sentences -->
+        <section class="intro">
+            <h2>
+                Contact form for request an appointment in a clinic
+            </h2>
+            <p>
+                <br>
+                This could be a base form for requesting an appointment in a clinic. 
+                <br>
+                The patient must fill the blanks and wait for a response with an appointment date.
+                <br><br>
+                This is a future project that I really want to start with my wife, she is a radiologist technician and I'm starting with web develop. 
+                Thank you for being part of this dream. Greetings.
+            </p>
+        </section>
+        <!-- Setting form -->
+        <form class="form" id="form">
+            <!-- Struct form with div -->
+            <div class="inputDiv border10">
+                <!-- input first name -->
+                <div class="inputF">
+                    <input type="text" name="first name" class="input" id="firstName" placeholder="First Name *" onblur="validateFirstName();" required/>
+                    <p class="errorInput"><span id="feedBackFn">&nbsp;</span></p>
+                </div>
+                <!-- input last name -->
+                <div class="inputF">
+                    <input type="text" name="last name" class="input" id="lastName" placeholder="Last Name *" onblur="validateLastName();" required/>
+                    <p class="errorInput"><span id="feedBackLn">&nbsp;</span></p>
+                </div>
+                <!-- input id number -->
+                <div class="inputF">
+                    <input type="text" name="document" class="input" id="document" placeholder="Identity Card *" onblur="validateId();" required/>
+                    <p class="errorInput" id="feedBackId">&nbsp;</p>
+                </div>
+                <!-- input email -->
+                <div class="inputF">
+                    <input type="email" name="email" class="input" id="email" placeholder="Email *" onblur="validateEmail();" required/>
+                    <p class="errorInput" id="feedBackE">&nbsp;</p>
+                </div>
+                <!-- input phone number -->
+                <div class="inputF">
+                    <input type="text" name="phone" class="input" id="phone" placeholder="Phone Number *" onblur="validatePhone();" required/>
+                    <p class="errorInput" id="feedBackP">&nbsp;</p>
+                </div>
+                <!-- input birth date -->
+                <div class="inputF">
+                    <input type="date" name="birthd" class="input" id="birthd" placeholder="Birth Date"/>
+                </div>
+                <!-- input gender -->
+                <div class="inputB">
+                    <input type="radio" name="gender" value="Female" class="gender" id="gender" checked/><label for="gender" class="label">&emsp;Female</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <input type="radio" name="gender" value="Male" class="gender" id="gender"/><label for="gender" class="label">&emsp;Male</label>
+                </div>
+                <!-- input other observations -->
+                <div class="inputO">
+                    <input type="text" name="message" class="input" id="message" placeholder="Message"/>
+                </div>
+                <span class="indication">* All indicated fields must be completed.<br />
+                    Please include non-medical questions and correspondence only.</span>
+                <!-- button  -->
+                <div class="inputBtn">
+                    <button name="button" type="button" id="button" class="button" onclick="checkInput();">Place your request</button>
+                </div>
+            </div>
+        </form>
+        <!-- setting footer -->
+        <footer>
+            <p class="footer">Coded by Gabriel Dugarte.</p>
+        </footer>
+    <!-- JS file -->
+    <script src="finalProject.js"></script>
+    </body>
+</html>

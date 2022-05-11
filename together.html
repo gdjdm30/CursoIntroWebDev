@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Together Page</title>
+
+        <link rel="stylesheet" href="together.css" type="text/css">
+    </head>
+    <script>
+        function doMath(){
+            var x = 2;
+            var y = 10;
+            var z = 5;
+            var answer = x * y / z;
+            document.getElementById("output").innerHTML = "Result " + answer;
+        }
+    </script>
+    <body>
+        <H1>Together Page</H1>
+        <a href="http://www.google.com.ar" class="regular">Go to google!</a>
+        <img src="imagen.png" alt="My Image" id="google">
+        <p class="testClass">Putting CSS to Work: Controlling Your Page Layout</p>
+        <button onclick="doMath();">Do the Math</button>
+        <p id="output"></p>
+
+        <p class="regular"> This is a CSS test of regular.</p>
+        <p class="testClass"> This is a CSS test of a .css file.</p>
+        <p id="text"> This is a CSS test of a .css file.</p>
+        <table>
+            <tr>
+                <td>Day 1</td><td>Walking</td><td>60 minutes</td>
+            </tr>
+            <tr>
+                <td>Day 2</td><td>Riding Bike</td><td>180 minutes</td>
+            </tr>
+            <tr>
+                <td>Day 3</td><td>Jogging</td><td>40 minutes</td>
+            </tr>
+            <tr>
+                <td>Day 4</td><td>Jogging</td><td>40 minutes</td>
+            </tr>
+            <tr>
+                <td>Day 5</td><td>Resting</td><td>40 minutes</td>
+            </tr>
+            <tr>
+                <td>Link and Image</td><td><img src="imagen.PNG"></td><td><a href="http://www.google.com.ar">Go to Google!</a></td>
+            </tr>
+        </table>
+
+    </body>
+</html>

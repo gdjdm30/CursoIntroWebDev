@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dynamic Page</title>
+    </head>
+
+    <script>
+        
+        function CheckText()
+        {
+            var inputN = document.getElementById("name").value;
+
+            if (inputN.length == 0) {
+                document.getElementById("chkName").innerHTML = "Please fill the blank with your Name.";
+            } else { 
+                document.getElementById("chkName").innerHTML = "Hello " + inputN;
+            }
+        }
+
+    </script>
+
+<body>
+    <H1 style="color:navy;">Button with Text Box</H1>
+
+    <input type="text" id="name"/>
+    <button onclick="CheckText();">Check Name</button>
+
+
+    <p id="chkName" style="color: blue;"></p>
+
+</body>
+
+</html>
